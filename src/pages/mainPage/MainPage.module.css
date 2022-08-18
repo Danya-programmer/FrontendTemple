@@ -1,0 +1,6 @@
+.listInactive{
+    display: none;
+}
+.listActive{
+    display: inline;
+}

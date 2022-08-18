@@ -1,0 +1,63 @@
+.Header {
+    margin: 60px;
+    display: flex;
+    flex-flow: column wrap;
+
+}
+.navlinkLogo {
+    text-decoration: none;
+
+}
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.logoImg {
+    width: 235px;
+    height: 155px;
+    
+}
+.logoTitle {
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #2DA583;
+
+}
+.orangeLine{
+    width: 100%;
+    height: 6px;
+    background: #DF6033;
+    border-radius: 20px;
+}
+.menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.menuItem {
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.active {
+    color: #DF6033;
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+}
