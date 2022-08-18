@@ -6,8 +6,9 @@ import { NavLink } from 'react-router-dom';
 
 
 export const DropDownMenu = (props) => {
-  const num = ['1','2']
-  console.log(props.menuItems)
+  console.log(props.title)
+  const items = props.menuItems
+  console.log(items)
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
@@ -26,7 +27,7 @@ export const DropDownMenu = (props) => {
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
       >
-      <p className={classes.menuItem}>O храме <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <p className={classes.menuItem}>{props.title} <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M8.82662 16.9345L0.431541 0.57201H17.2217L8.82662 16.9345Z" fill="black"/>
 </svg></p>
       </button>
@@ -38,7 +39,7 @@ export const DropDownMenu = (props) => {
         MenuListProps={{
           'aria-labelledby': 'basic-button',
         }}
-      > {num.map((item) => <MenuItem  onClick={handleClose}><NavLink to='/' className={navData => navData.isActive ? classes.active : classes.menuItem}>{item}</NavLink></MenuItem>)}
+      > {items.map((item) => <MenuItem  onClick={handleClose}><NavLink to={item.to} className={navData => navData.isActive ? classes.active : classes.inActive}>{item.title}</NavLink></MenuItem>)}
         
     
         

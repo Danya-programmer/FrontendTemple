@@ -3,7 +3,9 @@ import {NavLink} from "react-router-dom";
 import { DropDownMenu } from "../UI/dropDownMenu/DropDownMenu";
 import classes from './Header.module.css'
 export const Header = () => {
-    const menuItems = ['История храма','Колокольня', 'Просфорная', 'Библиотека'] 
+    const menuItemsTemple = [{'to':'history','title':'История храма'},{'to':'belltower','title':'Колокольня'}, {'to':'prosphoric','title':'Просфорная'}, {'to':'library','title':'Библиотека'}] 
+    const menuItemSocialService = [{'to':'mercybus','title':'Автобус милосердия'},{'to':'Almshouse','title':'Дом сопровождаемого проживания(Богадельня)'}] 
+
     return(
         <div className={classes.Header}>
             <NavLink to='/' className={classes.navlinkLogo}>
@@ -15,11 +17,9 @@ export const Header = () => {
             </NavLink>
             <hr className={classes.orangeLine}/>
             <div className={classes.menu}>
-            <DropDownMenu  />
+            <DropDownMenu  menuItems={menuItemsTemple} title={'О храме'}/>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Расписание богослужений</NavLink>
-                <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Социальное служение <svg width="18" height="17" viewBox="0 0 18 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M8.82662 16.9345L0.431541 0.57201H17.2217L8.82662 16.9345Z" fill="black"/>
-</svg> </NavLink>
+                <DropDownMenu  menuItems={menuItemSocialService} title={'Cоциальное служение'}/>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Фотогалерея</NavLink>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Контакты</NavLink>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Пожертвования</NavLink>
