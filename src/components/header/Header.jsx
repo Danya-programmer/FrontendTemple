@@ -24,7 +24,7 @@ export const Header = () => {
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Контакты</NavLink>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Пожертвования</NavLink>
             </div>
-            <div ><hr /></div>
+            <div ><hr className={classes.line}/></div>
             
         </div>
     )

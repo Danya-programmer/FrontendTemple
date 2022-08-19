@@ -40,7 +40,7 @@
     text-align: center;
     align-content: center;
     align-items: center;
-    height: 60px;
+    height: min-content;
 }
 
 .menuItem {
@@ -60,4 +60,7 @@
     font-size: 20px;
     line-height: 20px;
     text-decoration: none;
+}
+.line{
+    width: 100%;
 }

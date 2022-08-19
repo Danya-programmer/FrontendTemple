@@ -13,10 +13,10 @@ const images = [
 export const SliderImg = () => {
     
 return (
-    <div>
+    <div className='slider'>
       <SimpleImageSlider
-        width={896}
-        height={504}
+        width='60vw'
+        height='37vw'
         images={images}
         showBullets={true}
         showNavs={true}
