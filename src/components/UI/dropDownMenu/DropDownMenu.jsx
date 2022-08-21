@@ -40,7 +40,6 @@ export const DropDownMenu = (props) => {
           'aria-labelledby': 'basic-button',
         }}
       > {items.map((item) => <MenuItem  onClick={handleClose}><NavLink to={item.to} className={navData => navData.isActive ? classes.active : classes.inActive}><div className={classes.itemTitle}>{item.title}</div></NavLink></MenuItem>)}
-        
     
         
       </Menu>

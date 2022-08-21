@@ -8,6 +8,7 @@
     color: #000000;
 }
 .active {
+    display: none;
     color: #DF6033;
     font-family: 'Arial';
     font-style: normal;
