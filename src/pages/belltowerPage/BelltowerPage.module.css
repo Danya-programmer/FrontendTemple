@@ -1,0 +1,70 @@
+.Belltower{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+   margin: 0 0 20px 0;
+}
+.BelltowerSection1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 3vw 40px 3vw;
+}
+.Title {
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 26px;
+    color: #000000;
+    margin: 10px 0 30px 5px;
+}
+.text{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+}
+.Img1{
+    border-radius: 10px;
+    object-fit: cover;
+    max-width: 100%;
+    margin-top: 40px;
+}
+.BelltowerSection2{
+    background: #D9D9D9;
+    border-radius: 10px;
+    width: 100%;
+    height: min-content;
+
+}
+.BelltowerSection2inside{
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+    margin: 40px 3vw 40px 3vw;
+    height: min-content;
+}
+.Img2{
+    border-radius: 10px;
+    object-fit: cover;
+    min-width: 250px;
+    width: 100%;
+}
+.text2{
+    margin: 0 10px 0 10px;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    
+}
+@media (max-width: 500px) {
+    .BelltowerSection2inside{
+    display: flex;
+    flex-flow: column-reverse nowrap;}
+}

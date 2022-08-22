@@ -67,3 +67,8 @@
 .line{
     width: 100%;
 }
+@media  ( max-width: 490px) {
+    .logoTitle {
+        display: none;
+    }
+}

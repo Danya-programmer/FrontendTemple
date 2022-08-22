@@ -10,7 +10,7 @@ export const Header = () => {
         <div className={classes.Header}>
             <NavLink to='/' className={classes.navlinkLogo}>
             <div className={classes.logo}>
-                <img className={classes.logoImg} src={require('../../images/logos/logo.png')} alt="не работает" />
+                <img className={classes.logoImg} src={require('../../images/logos/logo.jpg')} alt="не работает"/>
                 <div className={classes.logoTitle}>Храм Рождества Христова и Преподобного Сергия Радонежского  
                 пос. Крутая горка</div>
             </div>
@@ -18,7 +18,7 @@ export const Header = () => {
             <hr className={classes.orangeLine}/>
             <div className={classes.menu}>
             <DropDownMenu  menuItems={menuItemsTemple} title={'О храме'}/>
-                <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Расписание богослужений</NavLink>
+                <NavLink to='/belltower' className={navData => navData.isActive ? classes.active : classes.menuItem}>Расписание богослужений</NavLink>
                 <DropDownMenu  menuItems={menuItemSocialService} title={'Cоциальное служение'}/>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Фотогалерея</NavLink>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Контакты</NavLink>
