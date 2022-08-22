@@ -1,0 +1,43 @@
+.ProsphoricPage{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 3vw 40px 3vw;
+}
+.ProsphoricPageSection1{
+    display: flex;
+    flex-direction: row wrap;
+}
+.ProsphoricPageSection1Text{
+    background: #DF6033;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    min-width: 300px;
+}
+.Text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    max-width: 400px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.Img1{
+    border-radius: 10px;
+    width: 50%;
+}
+.Img2{
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 10px;
+}
