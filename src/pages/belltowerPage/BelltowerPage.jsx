@@ -6,7 +6,7 @@ import classes from './BelltowerPage.module.css';
 
 const BelltowerPage = () => {
     AOS.init({
-        duration: 1500
+        duration: 2000
       });
     return (
         <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%);'}}>
@@ -22,13 +22,13 @@ const BelltowerPage = () => {
             <section className={classes.BelltowerSection2}>
                 <div className={classes.BelltowerSection2inside}>
 
-            <img data-aos="fade-up"   src={require('../../images/belltower/belltower2.webp')} alt="не работает" className={classes.Img2} />
-                        <div  className={classes.text2}> <p data-aos="slide-up" className={classes.text}> Уникальная инженерная находка, в результате которой колокольня обрела удивительные акустические свойства, родилась почти случайно. Настоятель храма - Отец Петр искал недорогой и доступный материал для строительства. </p> 
+            <img data-aos="fade-up"    src={require('../../images/belltower/belltower2.webp')} alt="не работает" className={classes.Img2} />
+                        <div  className={classes.text2}> <p className={classes.text} data-aos="slide-up"> Уникальная инженерная находка, в результате которой колокольня обрела удивительные акустические свойства, родилась почти случайно. Настоятель храма - Отец Петр искал недорогой и доступный материал для строительства. </p> 
 
-                        <p data-aos="slide-up" className={classes.text}>Снаружи кажется, что колонны служат только для поддержания стен. На самом деле они полые.</p> 
+                        <p className={classes.text} data-aos="slide-up">Снаружи кажется, что колонны служат только для поддержания стен. На самом деле они полые.</p> 
 
-                        <p data-aos="slide-up" className={classes.text}>Стальные трубы метрового диаметра и сантиметровой толщины выполняют роль резонаторов. В итоге, вся колокольня - как огромный музыкальный инструмент.</p> 
-                        <p data-aos="slide-up" className={classes.text}>Нашлись трубы, как говориться, с Божией помощью. "Здесь совсем недалеко есть дюкер нефтепровода - переправа через Иртыш. Там какую-то реконструкцию проводили и осталось 100 метров трубы. Я не верил, что нам их отдадут", - рассказывает Отец Петр.
+                        <p className={classes.text} data-aos="slide-up">Стальные трубы метрового диаметра и сантиметровой толщины выполняют роль резонаторов. В итоге, вся колокольня - как огромный музыкальный инструмент.</p> 
+                        <p className={classes.text} data-aos="slide-up">Нашлись трубы, как говориться, с Божией помощью. "Здесь совсем недалеко есть дюкер нефтепровода - переправа через Иртыш. Там какую-то реконструкцию проводили и осталось 100 метров трубы. Я не верил, что нам их отдадут", - рассказывает Отец Петр.
 
 </p> <p data-aos="slide-up" className={classes.text}>Прихожане трудились даже за темно. Так рисунок в колокольне делали в 2.00 часа ночи. Все с нетерпением ждали, когда впервые зазвучат колокола. </p>
 </div></div>

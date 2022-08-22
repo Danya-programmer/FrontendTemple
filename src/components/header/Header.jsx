@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 import { DropDownMenu } from "../UI/dropDownMenu/DropDownMenu";
 import classes from './Header.module.css'
 export const Header = () => {
-    const menuItemsTemple = [{'to':'history','title':'История храма'},{'to':'belltower','title':'Колокольня'}, {'to':'prosphoric','title':'Просфорная'}, {'to':'library','title':'Библиотека'}] 
+    const menuItemsTemple = [{'to':'/history','title':'История храма'},{'to':'/belltower','title':'Колокольня'}, {'to':'/prosphoric','title':'Просфорная'}, {'to':'/library','title':'Библиотека'}, {'to':'/sundayschool','title':'Воскресная школа для взрослых'}] 
     const menuItemSocialService = [{'to':'mercybus','title':'Автобус милосердия'},{'to':'Almshouse','title':'Дом сопровождаемого проживания(Богадельня)'}] 
 
     return(

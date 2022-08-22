@@ -42,6 +42,7 @@
 }
 .BelltowerSection2inside{
     display: flex;
+    align-items: center;
     flex-flow: row wrap-reverse;
     justify-content: space-between;
     margin: 40px 3vw 40px 3vw;
@@ -50,12 +51,13 @@
 .Img2{
     border-radius: 10px;
     object-fit: cover;
-    min-width: 250px;
-    width: 100%;
+    min-width: 300px;
+    width: 50%;
 }
 .text2{
     margin: 0 10px 0 10px;
     max-width: 700px;
+    min-width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -65,6 +67,6 @@
 }
 @media (max-width: 500px) {
     .BelltowerSection2inside{
-    display: flex;
-    flex-flow: column-reverse nowrap;}
+    
+    }
 }
