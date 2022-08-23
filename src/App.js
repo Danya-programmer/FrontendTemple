@@ -10,6 +10,8 @@ import { MainPage } from './pages/mainPage/MainPage';
 import { HistoryPage } from './pages/historyPage/HistoryPage';
 import BelltowerPage from './pages/belltowerPage/BelltowerPage';
 import ProsphoricPage from './pages/prosphoricPage/ProsphoricPage';
+import SchedulePage from './pages/schedulePage/SchedulePage';
+import LibraryPage from './pages/libraryPage/LibraryPage';
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +20,8 @@ function App() {
         <Route path='/history/' element={<HistoryPage/>}/>
         <Route path='/belltower/' element={<BelltowerPage/>}/>
         <Route path='/prosphoric/' element={<ProsphoricPage/>}/>
+        <Route path='/schedule/' element={<SchedulePage/>}/>
+        <Route path='/library/' element={<LibraryPage/>}/>
         <Route path="*" element={<Navigate to ="/" />}/>
 </Routes>
 </BrowserRouter>

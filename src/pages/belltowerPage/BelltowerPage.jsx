@@ -37,7 +37,7 @@ const BelltowerPage = () => {
                 <div className={classes.text}>
                     <p>И через 6 лет в 2009 году в день памяти преподобного Сергия Радонежского колокольня была освящена. Но ее созданием строительство православного комплекса в Крутой Горке не завершилось. </p>
                 </div>
-                <img data-aos="zoom-in" src={require('../../images/belltower/belltower3.webp')} alt="не работает" className={classes.Img1} />
+                <img src={require('../../images/belltower/belltower3.webp')} alt="не работает" className={classes.Img1} />
             </section>
             </div>
             <Footer/>

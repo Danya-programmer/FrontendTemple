@@ -1,43 +1,76 @@
 .ProsphoricPage{
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 40px 3vw 40px 3vw;
 }
 .ProsphoricPageSection1{
     display: flex;
-    flex-direction: row wrap;
+    flex-flow: row nowrap;
+    width: 100%;
+    
 }
 .ProsphoricPageSection1Text{
-    background: #DF6033;
+    background: #ca562b;
     box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     margin-right: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30%;
+    width: 40%;
     min-width: 300px;
 }
 .Text{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 30px;
+    line-height: 49px;
     display: flex;
     align-items: center;
     letter-spacing: 0.05em;
-    max-width: 400px;
+    max-width: 500px;
+    width: 80%;
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
 }
 .Img1{
     border-radius: 10px;
-    width: 50%;
+    width: 80%;
 }
 .Img2{
     margin-top: 40px;
     width: 100%;
     border-radius: 10px;
+}
+
+.Title{
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 26px;
+    color: #000000;
+    margin: 10px 0 30px 5px;
+}
+
+@media (max-width: 1350px) {
+    .ProsphoricPageSection1{
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+        
+    }
+    .Img1{
+        border-radius: 10px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .ProsphoricPageSection1Text{
+        width: 100%;
+        max-width: none;
+        
+    }
 }
