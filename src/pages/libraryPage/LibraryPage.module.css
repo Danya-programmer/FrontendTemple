@@ -25,7 +25,7 @@
 
 }
 .Section2inside{
-    margin: 40px 3vw 40px 3vw;
+    margin: 20px 3vw 40px 3vw;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -37,7 +37,6 @@
     min-width: 300px;
 }
 .Text{
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -52,7 +51,22 @@
 }
 @media (max-width: 1520px) {
     .Text{
-        
         max-width: 400px;
+    }
+}
+@media (max-width: 900px) {
+    .Section2inside{
+        justify-content: center;
+        align-items: center;
+        margin: 0 5px 0 5px;
+    }
+    .Img2{
+        max-width: 100%;
+    }
+    .Text{
+        width: 100%;
+    }
+    .Img1{
+        margin: 20px 5px 20px 5px;
     }
 }

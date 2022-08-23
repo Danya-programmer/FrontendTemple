@@ -18,7 +18,7 @@ export const Header = () => {
             <hr className={classes.orangeLine}/>
             <div className={classes.menu}>
             <DropDownMenu  menuItems={menuItemsTemple} title={'О храме'}/>
-                <NavLink to='/schedule ' className={navData => navData.isActive ? classes.active : classes.menuItem}>Расписание богослужений</NavLink>
+                <NavLink to='/schedule' className={navData => navData.isActive ? classes.active : classes.menuItem}>Расписание богослужений</NavLink>
                 <DropDownMenu  menuItems={menuItemSocialService} title={'Cоциальное служение'}/>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Фотогалерея</NavLink>
                 <NavLink to='/f' className={navData => navData.isActive ? classes.active : classes.menuItem}>Контакты</NavLink>
