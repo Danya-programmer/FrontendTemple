@@ -12,7 +12,7 @@ const LibraryPage = () => {
         <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%);'}}>
             <Header/>
             <div className={classes.LibraryPage}>
-                <div className={classes.Title}>Библиотека</div>
+                <div className={classes.Title} data-aos='slide-up'>Библиотека</div>
                 <img src={require('../../images/library/library1.jpg')} alt="" className={classes.Img1} />
                 <section className={classes.Section2}>
                     <div className={classes.Section2inside}>

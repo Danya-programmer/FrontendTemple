@@ -1,0 +1,112 @@
+.ContactsPage {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
+.Info {
+    margin: 30px;
+}
+.Info1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+
+}
+.TextT{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.Title{
+    margin: 40px 0 40px 0;
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 26px;
+    color: #000000;
+}
+.ContactsPageMain{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 94vw;
+    margin: 40px 3vw 40px 3vw;
+   
+}
+.Img1{
+    object-fit: cover;
+    width: 65px;
+    height: 65px;
+}
+.Img2{
+    object-fit: cover;
+    width: 65px;
+    height: 70px;
+}
+.Network{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.Networks{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.Geoposition{
+    margin: 40px 3vw 40px 3vw;
+}
+.GeopositionTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Line{
+    width: 40vw;
+   
+}
+.MapInfomation{
+    display: flex;
+    flex-flow: row wrap;
+}
+.Map{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 50vw;
+    height: 50vw;
+    min-width: 300px;
+}
+@media (max-width: 500px) {
+    .Title{
+        margin: 10px 0 10px 0;
+        font-family: 'Vezitsa';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 26px;
+        color: #000000;
+    }
+    .Text {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 34px;
+        color: #000000;
+    
+    }
+    .ContactsPageMain{
+        margin: 0 3vw 40px 3vw;
+    }
+}

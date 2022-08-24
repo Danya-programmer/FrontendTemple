@@ -2,12 +2,16 @@ import classes from './ProsphoricPage.module.css'
 import React from 'react';
 import { Footer } from '../../components/footer/Footer';
 import { Header } from '../../components/header/Header';
+import Aos from 'aos';
 
 const ProsphoricPage = () => {
+    Aos.init({
+        duration: 2000
+      });
     return (
         <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%);'}}>
             <Header/>
-            <div className={classes.ProsphoricPage}>
+            <div data-aos='slide-up' className={classes.ProsphoricPage}>
                 <div className={classes.Title}>Просфорная</div>
                 <div className={classes.ProsphoricPageSection1}>
                     <div className={classes.ProsphoricPageSection1Text}>

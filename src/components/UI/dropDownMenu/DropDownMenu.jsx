@@ -6,9 +6,7 @@ import { NavLink } from 'react-router-dom';
 
 
 export const DropDownMenu = (props) => {
-  console.log(props.title)
   const items = props.menuItems
-  console.log(items)
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
