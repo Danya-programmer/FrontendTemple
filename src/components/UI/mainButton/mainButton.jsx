@@ -6,7 +6,7 @@ export const MainButton = () =>{
 
     return(
         <div className="main-button-contener">
-        <NavLink to='/' className="main-button-navlink"><div className="main-button"><p className="main-button-text">Как посетить</p></div></NavLink>
+        <NavLink to='/contacts' className="main-button-navlink"><div className="main-button"><p className="main-button-text">Как посетить</p></div></NavLink>
         </div>
     )
 }

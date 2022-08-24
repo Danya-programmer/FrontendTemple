@@ -53,12 +53,14 @@
     object-fit: cover;
     width: 65px;
     height: 70px;
+    margin-top: -2px;
 }
 .Network{
     display: flex;
     flex-flow: column nowrap;
 }
 .Networks{
+    margin: 20px 0 20px 0;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -71,6 +73,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin: 0 0 20px 0;
 }
 .Line{
     width: 40vw;
@@ -78,15 +81,50 @@
 }
 .MapInfomation{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
 }
 .Map{
     object-fit: cover;
     border-radius: 10px;
     width: 50vw;
-    height: 50vw;
+    height: 25vw;
     min-width: 300px;
+    min-height: 300px;
 }
+.geoText{
+    max-width: 1000px;
+    width: 40%;
+    line-height: 54px;
+}
+.Address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Button{
+    width: 432px;
+    height: 88px;
+    transition: 700ms;
+    text-decoration: none;
+    text-align: center;
+    background: #DF6033;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 100px;
+}
+.Button:hover{
+    transition: 700ms;
+    background: #c93600;
+}
+.WhiteText{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
 @media (max-width: 500px) {
     .Title{
         margin: 10px 0 10px 0;
@@ -108,5 +146,25 @@
     }
     .ContactsPageMain{
         margin: 0 3vw 40px 3vw;
+    }
+    .MapInfomation{
+        display: flex;
+        flex-flow: column ;
+        height: min-content;
+    }
+    .Button{
+        width: 300px;
+        height: 70px;
+        align-items: center;
+        
+    }
+    .WhiteText{
+       
+        font-size: 24px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .geoText{
+        min-width: 300px;
     }
 }

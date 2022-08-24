@@ -46,7 +46,8 @@ export default function ContactsPage() {
               <div className={classes.MapInfomation}>
             <iframe className={classes.Map} src="https://yandex.ru/map-widget/v1/?um=constructor%3A74c6cc2f13e86ccbbdec5806619f4c6522ead7c5b0fa53d20e44821dbbeea338&amp;source=constructor" width="757" height="663" frameBorder="0"/>
             <div className={classes.Address}>
-              dfsdsdfs
+              <p className={`${classes.Text} ${classes.geoText}`}>Адрес: Россия, Омская область, р.п. Крутая Горка, ул. Полтавцева, 2а</p>
+              <a href="https://yandex.ru/maps/?from=mapframe&ll=73.217645%2C55.364103&mode=routes&rtext=~55.364110%2C73.217479&rtt=auto&ruri=~ymapsbm1%3A%2F%2Forg%3Foid%3D1059766135&source=mapframe&um=constructor%3A74c6cc2f13e86ccbbdec5806619f4c6522ead7c5b0fa53d20e44821dbbeea338&utm_source=mapframe&z=17.08" className={classes.Button}><p className={classes.WhiteText}>Построить маршрут</p></a>
             </div>
             </div>
           </div>
