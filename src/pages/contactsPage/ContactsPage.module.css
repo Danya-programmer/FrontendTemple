@@ -148,23 +148,26 @@
         margin: 0 3vw 40px 3vw;
     }
     .MapInfomation{
+        
         display: flex;
         flex-flow: column ;
         height: min-content;
+    }
+    .Map{
+        align-self: center;
     }
     .Button{
         width: 300px;
         height: 70px;
         align-items: center;
-        
     }
-    .WhiteText{
-       
+    .WhiteText{   
         font-size: 24px;
         line-height: 20px;
         color: #FFFFFF;
     }
     .geoText{
         min-width: 300px;
+        text-align: center;
     }
 }

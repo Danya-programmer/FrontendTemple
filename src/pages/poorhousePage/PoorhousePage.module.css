@@ -1,0 +1,93 @@
+.PoorhousePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Title{
+    text-align: center;
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 36px;
+    color: #000000;
+    margin: 40px 0 40px 5px;
+}
+.ImgBack{
+    display: flex;
+   position: relative;
+   margin: 20px 0 20px 0;
+   overflow:hidden;
+   width: 100%;
+   height: min-content;
+   
+   
+}
+.ImgMain{
+    filter: blur(2px);
+    border-radius: 10px;
+    position: relative;
+    object-fit: cover;
+    width: 100vw;
+    z-index:-1;
+    height: 100%;
+    
+    
+    
+}
+.ImgTitle{
+    margin: 0 0 250px 0;
+    text-align: center;
+    align-self:flex-end;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FEFEFE;
+    position: absolute;
+}
+.Text{
+    margin: 20px 3vw 20px 3vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #000000;
+}
+
+@media (max-width:1200px) {
+    .ImgTitle{
+        font-size: 29px;
+        line-height: 39px;
+        margin: 0 0 100px 0;
+    }
+}
+@media (max-width:500px) {
+    .ImgTitle{
+        position: relative;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 10px 0 10px 0;
+        color: #000000;
+    }
+    .ImgBack{
+    display: flex;
+    flex-direction: column;
+    width: 94vw;
+    margin: 10px 3vw 10px 3vw;
+
+    }
+    .ImgMain{
+        filter: none;
+        
+    }
+    .Title{
+        margin: 10px 0 10px 0;
+        font-size: 24px;
+        line-height: 24px;
+    }
+}

@@ -13,6 +13,7 @@ import ProsphoricPage from './pages/prosphoricPage/ProsphoricPage';
 import SchedulePage from './pages/schedulePage/SchedulePage';
 import LibraryPage from './pages/libraryPage/LibraryPage';
 import ContactsPage from './pages/contactsPage/ContactsPage';
+import PoorhousePage from './pages/poorhousePage/PoorhousePage';
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +25,7 @@ function App() {
         <Route path='/schedule/' element={<SchedulePage/>}/>
         <Route path='/library/' element={<LibraryPage/>}/>
         <Route path='/contacts' element={<ContactsPage/>}/>
+        <Route path='/poorhouse' element={<PoorhousePage/>}/>
         <Route path="*" element={<Navigate to ="/" />}/>
 </Routes>
 </BrowserRouter>

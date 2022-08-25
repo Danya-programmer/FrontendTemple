@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { HashLink as Link } from 'react-router-hash-link';
 import './mainButton.css'
 
 export const MainButton = () =>{
 
     return(
         <div className="main-button-contener">
-        <NavLink to='/contacts' className="main-button-navlink"><div className="main-button"><p className="main-button-text">Как посетить</p></div></NavLink>
+        <Link to='/contacts#geo' className="main-button-navlink"><div className="main-button"><p className="main-button-text">Как посетить</p></div></Link>
         </div>
     )
 }
