@@ -14,18 +14,20 @@ import SchedulePage from './pages/schedulePage/SchedulePage';
 import LibraryPage from './pages/libraryPage/LibraryPage';
 import ContactsPage from './pages/contactsPage/ContactsPage';
 import PoorhousePage from './pages/poorhousePage/PoorhousePage';
+import MercyBusPage from './pages/mercyBusPage/MersyBusPage';
 function App() {
   return (
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<MainPage />}/>
-        <Route path='/history/' element={<HistoryPage/>}/>
-        <Route path='/belltower/' element={<BelltowerPage/>}/>
-        <Route path='/prosphoric/' element={<ProsphoricPage/>}/>
-        <Route path='/schedule/' element={<SchedulePage/>}/>
-        <Route path='/library/' element={<LibraryPage/>}/>
+        <Route path='/history' element={<HistoryPage/>}/>
+        <Route path='/belltower' element={<BelltowerPage/>}/>
+        <Route path='/prosphoric' element={<ProsphoricPage/>}/>
+        <Route path='/schedule' element={<SchedulePage/>}/>
+        <Route path='/library' element={<LibraryPage/>}/>
         <Route path='/contacts' element={<ContactsPage/>}/>
         <Route path='/poorhouse' element={<PoorhousePage/>}/>
+        <Route path='/mercybus' element={<MercyBusPage/>}/>
         <Route path="*" element={<Navigate to ="/" />}/>
 </Routes>
 </BrowserRouter>

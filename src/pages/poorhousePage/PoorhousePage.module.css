@@ -12,7 +12,7 @@
     font-size: 40px;
     line-height: 36px;
     color: #000000;
-    margin: 40px 0 40px 5px;
+    margin: 40px 10px 40px 10px;
 }
 .ImgBack{
     display: flex;
@@ -30,7 +30,7 @@
     position: relative;
     object-fit: cover;
     width: 100vw;
-    z-index:-1;
+    z-index:1;
     height: 100%;
     
     
@@ -47,6 +47,7 @@
     line-height: 49px;
     color: #FEFEFE;
     position: absolute;
+    z-index: 2;
 }
 .Text{
     margin: 20px 3vw 20px 3vw;
@@ -58,6 +59,18 @@
 
     color: #000000;
 }
+
+.PeopleTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 0 20px 0;
+}
+.Line{
+    width: 30vw;
+}
+
 
 @media (max-width:1200px) {
     .ImgTitle{

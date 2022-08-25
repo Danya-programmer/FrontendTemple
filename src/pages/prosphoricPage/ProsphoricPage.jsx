@@ -9,7 +9,7 @@ const ProsphoricPage = () => {
         duration: 2000
       });
     return (
-        <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%);'}}>
+        <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
             <Header/>
             <div data-aos='slide-up' className={classes.ProsphoricPage}>
                 <div className={classes.Title}>Просфорная</div>

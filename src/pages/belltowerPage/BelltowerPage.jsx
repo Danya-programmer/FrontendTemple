@@ -9,7 +9,7 @@ const BelltowerPage = () => {
         duration: 2000
       });
     return (
-        <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%);'}}>
+        <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
             <Header/>
             <div className={classes.Belltower}>
                 <div data-aos="slide-up" className={classes.Title}>Колокольня</div>

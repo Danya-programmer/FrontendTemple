@@ -4,7 +4,7 @@ import { Header } from '../../components/header/Header'
 import classes from './SchedulePage.module.css'
 export default function SchedulePage() {
   return (
-    <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%);'}}>
+    <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
         <Header/>
         <div className={classes.Images}>
         <div className={classes.Title}>Расписание богослужений</div>

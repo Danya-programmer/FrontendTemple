@@ -9,7 +9,7 @@ export const HistoryPage = () => {
         duration: 1200
       });
     return(
-        <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%);'}}>
+        <div >
             <Header />
             <div className={classes.HistoryPage}>
                 <p className={classes.Title} data-aos="slide-up">История храма</p>

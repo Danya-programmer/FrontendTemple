@@ -5,14 +5,14 @@ import classes from './ContactsPage.module.css'
 
 export default function ContactsPage() {
   return (
-    <div>
+    <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
         <Header/>
         
         <div className={classes.ContactsPage}>
-          <div className={classes.Title}>Контакты</div>
+          <div className={classes.Title} id='info'>Контакты</div>
           <div className={classes.ContactsPageMain}>
           <div className={classes.Info}>
-            <div className={classes.Info1} id='info'>
+            <div className={classes.Info1}>
                 <div className={classes.InfoEmail}><p className={classes.Text}><b>E-mail:</b>hram-krgorka@yandex.ru</p> <p className={classes.Text}><b>Контактный телефон:</b>+7 (3812) 97-97-12</p></div>
                 <div className={classes.Network}><div className={classes.Text}>Мы в социальных сетях:</div> 
                 <div className={classes.Networks}>
