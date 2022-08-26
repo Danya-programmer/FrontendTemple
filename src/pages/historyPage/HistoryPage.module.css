@@ -52,11 +52,12 @@
 }
 
 .HistorySection2{
+    align-self: center;
     background: #FFFFFF;
     border-radius: 20px;
     display: flex;
     flex-flow: row-reverse wrap;
-    justify-content: space-between;
+    justify-content: center;
     margin: 40px 3vw 40px 3vw;
 }
 .HistorySection3{

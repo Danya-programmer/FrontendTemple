@@ -16,7 +16,7 @@ export const HistoryPage = () => {
                 <section  className={classes.HistorySectionfirst} >
                     <div className={`${classes.text}`} 
      >В 1995 году в детском садике была выделена комната для совершения богослужений. Так появился Храм в поселке. Первый служил батюшка Ксенофонт. Потом - батюшка Олег (Тыртышный). В дальнейшем он принял монашество с именем Александр. А в 33 года батюшку убили в Колосовке.</div>
-                    <div className={classes.HistorySection1}>
+                    <div className={classes.HistorySection}>
                         <img src={require('../../images/history/history1.jpg')} alt="не работает" className={`${classes.img1}`} data-aos="slide-up"/> 
                         <div className={`${classes.text1} `} data-aos="slide-up"> <p className={classes.text}> В 1996 году из Большекулачья приехал служить отец Петр (Мансуров). Появилась потребность в отдельном Храме.</p>
 
@@ -25,14 +25,14 @@ export const HistoryPage = () => {
                             <p className={classes.text} data-aos="slide-up" >Все строительные работы велись собственными силами священника и прихожан (в основном людьми преклонного возраста от 60 лет и старше).</p>
                             </div>
                             </div></section>
-            <section className={classes.HistorySection2} data-aos="slide-up">
+            <section className={classes.HistorySection} data-aos="slide-up">
             <img  src={require('../../images/history/history2.jpg')} alt="не работает" className={classes.img1} /> 
                         <div  className={`${classes.text1} `} data-aos="slide-up"> <p className={classes.text} > Обустраивали Храм всем миром. Умелые, трудолюбивые руки прихожан и батюшки Петра практически заново отстраивали стены, штукатурили, красили своды купола и благоустраивали территорию. </p>
                             <p className={classes.text}>Работали до поздна, ужин был в 23.00 часа. Летом от комаров разводили костер.</p>
                             <p className={classes.text}>Несмотря на тяжелые физические нагрузки, работали с радостью и Божией помощью.</p>
                             </div>
             </section>
-            <section className={classes.HistorySection3}>
+            <section className={classes.HistorySection}>
             <img data-aos="slide-right" src={require('../../images/history/history3.jpg')} alt="не работает" className={classes.img3} /> 
                         <div data-aos="slide-left" className={classes.text3}> <p className={classes.textWhite} data-aos="slide-up"> Первая служба состоялась в нижнем Храме (с пределом преподобного Сергия Радонежского) в 1997 году на Пасху. </p>
                             <p className={classes.textWhite} data-aos="slide-up">В большом Храме (с пределом Рождества Христова) шли ремонтно-строительные работы, а в нижнем Храме совершались богослужения. </p>
