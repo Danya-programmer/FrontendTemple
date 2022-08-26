@@ -3,26 +3,31 @@ import { Footer } from '../../components/footer/Footer';
 import { Header } from '../../components/header/Header';
 import { HashLink as Link } from 'react-router-hash-link';
 import classes from './MercyBusPage.module.css'
+import ButonUp from '../../components/UI/buttonUp/ButonUp';
+import Aos from 'aos';
 const MercyBusPage = () => {
+    Aos.init({
+        duration: 1200
+      });
     return (
         <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
            <Header/>
            <div className={classes.MercyBusPage}>
             <div className={classes.Title}>Автобус милосердия</div>
-            <div className={classes.Section}>
+            <div data-aos='slide-up' className={classes.Section}>
                 <img src={require('../../images/mercyBus/bus1.jpg')} alt="" className={classes.Img} />
                 <div className={classes.Texts}><p className={classes.Text}> Автобус милосердия – общественно-церковный проект помощи бездомным людям и людям в трудной жизненной ситуации. </p>
 <p className={classes.Text}>Еженедельно специально оборудованный автобус выезжает в пункты кормления для раздачи горячего питания, сезонной обуви и одежды. </p>
 <p className={classes.Text}>При необходимости подопечные получают медицинскую, психологическую и юридическую помощь.</p>
 </div>
             </div>
-            <div className={classes.Section}>
+            <div data-aos='slide-up' className={classes.Section}>
             <div className={classes.Texts}><p className={classes.Text}>Команда Автобуса милосердия состоит из водителя, социального работника и волонтеров. </p>
                     <p className={classes.Text}>Присоединиться к проекту может любой желающий!</p></div>
             
                 <img src={require('../../images/mercyBus/bus2.jpg')} alt="" className={classes.Img} />
                 </div>
-            <div className={classes.Section}>
+            <div data-aos='slide-up' className={classes.Section}>
                 <img src={require('../../images/mercyBus/bus3.jpg')} alt="" className={classes.Img} />
                 <div className={classes.Texts}>
                     <p className={classes.Text}>Автобус милосердия организует горячие обеды для людей, попавших в трудную жизненную ситуацию.</p>
@@ -41,7 +46,9 @@ const MercyBusPage = () => {
                 <img src={require('../../images/mercyBus/busFood.jpg')} alt="" className={classes.ImgDressAndFood} />
             </div>
             <img src={require('../../images/mercyBus/bustime.jpg')} alt="" className={classes.Bustime} />
+            <ButonUp/>
            <Footer/>
+           
         </div>
     );
 }
