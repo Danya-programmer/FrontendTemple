@@ -17,9 +17,9 @@ export const DropDownMenu = (props) => {
   };
 
   return (
-    <div>
+    <div >
       <button
-        style={{textDecorations: 'none',background: 'white', border:'none', height: 'min-content', width: 'max-content'}}
+        style={{textDecorations: 'none',background: 'none', border:'none', height: 'min-content', width: 'max-content'}}
         aria-controls={open ? 'basic-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}

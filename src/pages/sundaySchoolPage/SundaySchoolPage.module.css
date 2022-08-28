@@ -1,0 +1,19 @@
+.Title{
+    text-align: center;
+    margin: 40px 0 40px 0;
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 26px;
+    color: #000000;
+}
+.Text{
+    margin: 20px 3vw 40px 3vw;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+}
