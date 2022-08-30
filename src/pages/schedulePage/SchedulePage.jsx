@@ -2,7 +2,9 @@ import React from 'react'
 import { Footer } from '../../components/footer/Footer'
 import { Header } from '../../components/header/Header'
 import { Server } from '../../components/server/Server'
+import ButonUp from '../../components/UI/buttonUp/ButonUp';
 import classes from './SchedulePage.module.css'
+
 export default function SchedulePage() {
   const scheldureData = Server().ControllerServer.scheduleData
   console.log(scheldureData)
@@ -15,6 +17,7 @@ export default function SchedulePage() {
           <img src={data.image} alt="не работает" className={classes.Img} />
         ))}
        </div>
+       <ButonUp/>
         <Footer/>
     </div> 
   )

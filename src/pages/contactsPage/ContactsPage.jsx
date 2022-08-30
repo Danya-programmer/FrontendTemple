@@ -2,6 +2,7 @@ import React from 'react'
 import { Footer } from '../../components/footer/Footer'
 import { Header } from '../../components/header/Header'
 import classes from './ContactsPage.module.css'
+import ButonUp from '../../components/UI/buttonUp/ButonUp';
 
 export default function ContactsPage() {
   return (
@@ -53,6 +54,7 @@ export default function ContactsPage() {
           </div>
           </div>
         </div>
+        <ButonUp/>
         <Footer/>
         </div>
   )

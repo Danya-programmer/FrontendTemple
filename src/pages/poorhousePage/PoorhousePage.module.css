@@ -82,7 +82,7 @@
 @media (max-width:500px) {
     .ImgTitle{
         position: relative;
-        font-size: 24px;
+        font-size: 22px;
         line-height: 29px;
         margin: 10px 0 10px 0;
         color: #000000;
@@ -102,5 +102,8 @@
         margin: 10px 0 10px 0;
         font-size: 24px;
         line-height: 24px;
+    }
+    .Text{
+        font-size: 18px;
     }
 }

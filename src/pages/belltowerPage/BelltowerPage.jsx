@@ -3,6 +3,7 @@ import React from 'react';
 import { Footer } from '../../components/footer/Footer';
 import { Header } from '../../components/header/Header';
 import classes from './BelltowerPage.module.css';
+import ButonUp from '../../components/UI/buttonUp/ButonUp';
 
 const BelltowerPage = () => {
     AOS.init({
@@ -41,6 +42,7 @@ const BelltowerPage = () => {
                 <img src={require('../../images/belltower/belltower3.webp')} alt="не работает" className={classes.Img1} />
             </section>
             </div>
+            <ButonUp/>
             <Footer/>
         </div>
     );

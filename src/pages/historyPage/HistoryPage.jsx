@@ -3,6 +3,7 @@ import React from "react";
 import { Footer } from "../../components/footer/Footer";
 import { Header } from "../../components/header/Header";
 import classes from './HistoryPage.module.css'
+import ButonUp from '../../components/UI/buttonUp/ButonUp';
 
 export const HistoryPage = () => {
     AOS.init({
@@ -46,6 +47,7 @@ export const HistoryPage = () => {
         <div className={classes.text4}>Жизнь идет, но неизменной остается лишь вера в Бога, упование на промысел Божий. Будем дорожить своим православным Храмом как небесным островком на грешной земле. Будем содействовать его красоте и благолепию совершаемых в нем богослужений, потому что в Храме особенно чувствуется Благодать Божия.</div>
             </section>
             </div>
+            <ButonUp/>
             <Footer/>
         </div>
     )

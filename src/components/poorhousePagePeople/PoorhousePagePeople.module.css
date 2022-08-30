@@ -1,0 +1,57 @@
+.PoorhousePagePeople{
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.Img{
+    width: 50vw;
+    object-fit: contain;
+    min-width: 300px;
+    border-radius: 10px;
+}
+.MainText{
+    width: 40vw;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.Title{
+    width: 40vw;
+    text-align: center;
+    height: min-content;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;
+    margin: 20px 0 20px 0;
+}
+.Text{
+    width: 40vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+@media (max-width:700px) {
+    .PoorhousePagePeople{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:500px) {
+    .Title{  
+        font-size: 24px;
+        line-height: 27px;
+    }
+}

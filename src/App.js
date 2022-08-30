@@ -21,15 +21,17 @@ function App() {
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<MainPage />}/>
+
         <Route path='/history' element={<HistoryPage/>}/>
         <Route path='/belltower' element={<BelltowerPage/>}/>
-        <Route path='/prosphoric' element={<ProsphoricPage/>}/>
-        <Route path='/schedule' element={<SchedulePage/>}/>
         <Route path='/library' element={<LibraryPage/>}/>
+        <Route path='/prosphoric' element={<ProsphoricPage/>}/>
+        <Route path='/sundayschool' element={<SundaySchoolPage/>}/>
+        
+        <Route path='/schedule' element={<SchedulePage/>}/>
         <Route path='/contacts' element={<ContactsPage/>}/>
         <Route path='/poorhouse' element={<PoorhousePage/>}/>
         <Route path='/mercybus' element={<MercyBusPage/>}/>
-        <Route path='/sundayschool' element={<SundaySchoolPage/>}/>
         <Route path="*" element={<Navigate to ="/" />}/>
 </Routes>
 </BrowserRouter>

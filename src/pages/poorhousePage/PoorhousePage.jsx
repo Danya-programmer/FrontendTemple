@@ -4,7 +4,7 @@ import { Footer } from '../../components/footer/Footer';
 import { Header } from '../../components/header/Header';
 import AOS from 'aos';
 import { HashLink as Link } from 'react-router-hash-link';
-import PoorhousePageFrame from '../../components/poorhousePageFrame/poorhousePageFrame';
+import PoorhousePagePeople from '../../components/poorhousePagePeople/PoorhousePagePeople';
 
 const PoorhousePage = () => {
     AOS.init({
@@ -43,7 +43,7 @@ const PoorhousePage = () => {
                     <line y1="0.5" x2="415" y2="0.5" stroke="black"/>
                 </svg>
               </div>
-            <PoorhousePageFrame/>
+            <PoorhousePagePeople/>
             </div>
             <Footer/>
         </div>
