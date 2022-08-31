@@ -20,10 +20,10 @@ export default function PoorhousePagePeople() {
           <div className={classes.Text} >{men.text}</div>
         </div>
       </div>) : (
-        <div className={classes.PoorhousePagePeople}>
+        <div className={classes.PoorhousePagePeople2}>
         <div className={classes.MainText}>
           <div className={classes.Title}>{men.name}</div>
-          <div className={classes.Text}>{JSON.parser(men.text)}</div>
+          <div className={classes.Text}>{men.text}</div>
         </div>
         <img src={men.image} alt="не работает" className={classes.Img} />
       </div>)

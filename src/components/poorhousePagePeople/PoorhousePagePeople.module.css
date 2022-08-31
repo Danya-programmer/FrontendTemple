@@ -1,15 +1,23 @@
 .PoorhousePagePeople{
     margin: 20px 0 20px 0;
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-items: center;
+    justify-content: space-between;
 }
-
+.PoorhousePagePeople2{
+    margin: 20px 0 20px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
 .Img{
     width: 50vw;
     object-fit: contain;
     min-width: 300px;
     border-radius: 10px;
+    
 }
 .MainText{
     width: 40vw;
@@ -18,6 +26,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0 20px 0 20px;
     
 }
 .Title{
@@ -30,7 +39,7 @@
     font-size: 40px;
     line-height: 49px;
     color: #000000;
-    margin: 20px 0 20px 0;
+    
 }
 .Text{
     width: 40vw;
@@ -46,12 +55,30 @@
 @media (max-width:700px) {
     .PoorhousePagePeople{
         display: flex;
+        flex-direction: column-reverse;
+    }
+    .MainText{
+        margin:0;
+    }
+    .PoorhousePagePeople2{
+        display: flex;
         flex-direction: column;
     }
+    .Text{
+        width: 96vw;
+        
+    }
+    .Img{
+        width: 96vw;
+    }
+    
 }
 @media (max-width:500px) {
     .Title{  
         font-size: 24px;
         line-height: 27px;
+        font-weight: 700;
+        width: min-content;
     }
+    
 }

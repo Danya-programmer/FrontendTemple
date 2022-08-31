@@ -5,11 +5,13 @@ import { Header } from '../../components/header/Header';
 import AOS from 'aos';
 import { HashLink as Link } from 'react-router-hash-link';
 import PoorhousePagePeople from '../../components/poorhousePagePeople/PoorhousePagePeople';
+import { Server } from '../../components/server/Server';
 
 const PoorhousePage = () => {
     AOS.init({
         duration: 1200
       });
+    const people = Server().ControllerServer.poorhousePeople
     return (
         <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
             <Header/>
@@ -22,7 +24,7 @@ const PoorhousePage = () => {
                 </div>
                 <div className={classes.Text} ><p>Строительство богадельни началось в 2015 году по благословению Митрополита Омского и Таврического Владимира. 
                     С Божьей помощью и при участии неравнодушных людей дом был построен в 2017 году и рассчитан на проживание 15 человек. </p>
-                    <p>На первом этаже располагается кухня, просторная трапезная, несколько комнат для проживания. На втором этаже располагаются комнаты для проживания. На текущий момент в доме размещаются 7 человек. 
+                    <p>На первом этаже располагается кухня, просторная трапезная, несколько комнат для проживания. На втором этаже располагаются комнаты для проживания. На текущий момент в доме размещаются {people.length} человек. 
                     Все вместе они учатся совместному проживанию, поддерживают друг друга, по возможности помогают в благоустройстве территории храма и дома, и участвуют в Богослужениях. </p>
                     <nav>
                         <b>Для содержания богадельни регулярно требуется помощь в виде:</b>
