@@ -1,8 +1,6 @@
 import React from 'react'
 import { Server } from '../server/Server'
 import classes from './PoorhousePagePeople.module.css'
-import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
- 
 
 
 export default function PoorhousePagePeople() {
@@ -25,7 +23,7 @@ export default function PoorhousePagePeople() {
         <div className={classes.PoorhousePagePeople}>
         <div className={classes.MainText}>
           <div className={classes.Title}>{men.name}</div>
-          <div className={classes.Text}>{men.text}</div>
+          <div className={classes.Text}>{JSON.parser(men.text)}</div>
         </div>
         <img src={men.image} alt="не работает" className={classes.Img} />
       </div>)
