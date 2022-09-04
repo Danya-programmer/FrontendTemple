@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     margin: 20px 3vw 20px 3vw;
-    align-items: center;}
-    
+    align-items: center;
+}
+
 .Title{
     font-family: 'Vezitsa';
     font-style: normal;
@@ -11,5 +12,50 @@
     font-size: 40px;
     line-height: 40px;
     text-align: center;
-    margin: 40px 0 40px 0; }
+    margin: 40px 0 40px 0; 
+}
 
+.TemplePhotos{
+    width: 94vw;
+    margin: 40px 3vw 40px 3vw;
+    position: relative;
+    
+}
+.Temple{
+    display: flex;
+    flex-direction: row;
+}
+.MainPhoto{
+    object-fit: cover;
+    width: 50%;
+}
+.Other{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.OtherPhoto{
+    object-fit: fill;
+    width: 100%;
+}
+
+.TextinPhotos{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.76);}
+
+.Text{
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+.PoorhousePhoto{
+    width: 100%;
+    object-fit: contain;
+}

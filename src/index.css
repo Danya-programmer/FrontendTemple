@@ -11,7 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+@import "~react-image-gallery/styles/css/image-gallery.css";
 @font-face {
 	font-family: 'Vezitsa'; 
 	src: url(./components/UI/fonts/vezitsacyrillic.ttf); 
@@ -19,7 +19,7 @@ code {
 
 ::-webkit-scrollbar {
   width: 10px; /* ширина для вертикального скролла */
-  height: 1px; /* высота для горизонтального скролла */
+  height: 10px; /* высота для горизонтального скролла */
   background-color: #c0c0c0;
 }
 

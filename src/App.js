@@ -17,6 +17,7 @@ import PoorhousePage from './pages/poorhousePage/PoorhousePage';
 import MercyBusPage from './pages/mercyBusPage/MersyBusPage';
 import SundaySchoolPage from './pages/sundaySchoolPage/SundaySchoolPage';
 import PhotogalleryPage from './pages/photogalleryPage/PhotogalleryPage';
+import { TempleGallery } from './pages/photogallerypages/PhotogalleryTemple';
 function App() {
   return (
     <BrowserRouter>
@@ -34,6 +35,8 @@ function App() {
         <Route path='/poorhouse' element={<PoorhousePage/>}/>
         <Route path='/mercybus' element={<MercyBusPage/>}/>
         <Route path='/photogallery' element={<PhotogalleryPage/>}/>
+
+        <Route path='/photogallery/temple' element={<TempleGallery/>}/>
         <Route path="*" element={<Navigate to ="/" />}/>
 </Routes>
 </BrowserRouter>
