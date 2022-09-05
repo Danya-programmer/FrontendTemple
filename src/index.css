@@ -12,6 +12,7 @@ code {
     monospace;
 }
 @import "~react-image-gallery/styles/css/image-gallery.css";
+
 @font-face {
 	font-family: 'Vezitsa'; 
 	src: url(./components/UI/fonts/vezitsacyrillic.ttf); 

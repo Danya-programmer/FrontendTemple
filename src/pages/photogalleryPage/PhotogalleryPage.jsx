@@ -26,7 +26,7 @@ const PhotogalleryPage = () => {
                   </div>
                 </div>
                 </Link>
-                <Link to='/' style={{textDecoration: 'none'}}>
+                <Link to='/photogallery/belltower' style={{textDecoration: 'none'}}>
                     <div className={classes.TemplePhotos}>
                     <div className={classes.Temple}>
                         <img src={require('../../images/photogallery/belltower1.jpg')} alt="" className={classes.MainPhoto} />
@@ -38,7 +38,7 @@ const PhotogalleryPage = () => {
                   </div>
                   </div>
                 </Link>
-                <Link to='/' style={{textDecoration: 'none'}}>
+                <Link to='/photogallery/poorhouse' style={{textDecoration: 'none'}}>
                     <div className={classes.TemplePhotos}>
                         <img src={require('../../images/photogallery/poorhouse.jpg')} alt="" className={classes.PoorhousePhoto} />
                   <div className={classes.TextinPhotos}>
@@ -46,7 +46,7 @@ const PhotogalleryPage = () => {
                   </div>
                   </div>
                 </Link>
-                <Link to='/' style={{textDecoration: 'none'}}>
+                <Link to='/photogallery/mersybus' style={{textDecoration: 'none'}}>
                     <div className={classes.TemplePhotos}>
                     <div className={classes.Temple}>
                         <img src={require('../../images/photogallery/bus1.jpg')} alt="" className={classes.MainPhoto} />

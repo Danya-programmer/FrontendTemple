@@ -6,7 +6,12 @@ export const Server =() => {
     const [scheduleData, setScheduleData] = React.useState([])
     const [poorhousePeople, setPoorhousePeople] = React.useState([])
 
-    useEffect(() =>  {
+    const [templePhotogallery, setTemplePhotogallery] = React.useState([])
+    const [belltowerPhotogallery, setBelltowerPhotogallery] = React.useState([])
+    const [mersybusPhotogallery, setMersybusPhotogallery] = React.useState([])
+    const [poorhousePhotogallery, setPoorhousePhotogallery] = React.useState([])
+
+    useEffect(() =>  {  
        axios  ( {
           method: "GET",
           url:"http://127.0.0.1:8000/api/schedule",
@@ -26,8 +31,44 @@ export const Server =() => {
           }) 
         } ,[])
 
+        useEffect(() =>  {
+          axios  ( {
+              method: "GET",
+              url:"http://127.0.0.1:8000/api/photogallery/temple",
+            }).then((response)=>{
+              setTemplePhotogallery(response.data)
+            }) 
+          } ,[])
 
-    const ControllerServer = {scheduleData, poorhousePeople}
+          useEffect(() =>  {
+            axios  ( {
+                method: "GET",
+                url:"http://127.0.0.1:8000/api/photogallery/belltower",
+              }).then((response)=>{
+                setBelltowerPhotogallery(response.data)
+              }) 
+            } ,[])
+
+            useEffect(() =>  {
+              axios  ( {
+                  method: "GET",
+                  url:"http://127.0.0.1:8000/api/photogallery/poorhouse",
+                }).then((response)=>{
+                  setPoorhousePhotogallery(response.data)
+                }) 
+              } ,[])
+
+              useEffect(() =>  {
+                axios  ( {
+                    method: "GET",
+                    url:"http://127.0.0.1:8000/api/photogallery/mersybus",
+                  }).then((response)=>{
+                    setMersybusPhotogallery(response.data)
+                  }) 
+                } ,[])
+
+
+    const ControllerServer = {scheduleData, poorhousePeople, templePhotogallery, belltowerPhotogallery, poorhousePhotogallery, mersybusPhotogallery}
 
     return {ControllerServer}
 
