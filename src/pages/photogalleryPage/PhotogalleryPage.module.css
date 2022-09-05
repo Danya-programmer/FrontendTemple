@@ -16,9 +16,10 @@
 }
 
 .TemplePhotos{
-    width: 94vw;
+    width: 90vw;
     margin: 40px 3vw 40px 3vw;
     position: relative;
+    align-self: center;
     
 }
 .Temple{
