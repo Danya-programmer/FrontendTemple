@@ -51,7 +51,7 @@
 
 }
 .Button{
-    width: 25vw;
+    width: 35vw;
     min-width: 300px;
     margin: 40px 0 40px 0;
     background: #DF6033;
@@ -94,6 +94,7 @@
     object-fit: cover;
 }
 .Bustime{
-    width: 94vw;
+    align-self: center;
+    width: 96vw;
     object-fit: cover;
 }

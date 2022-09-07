@@ -19,6 +19,7 @@ import SundaySchoolPage from './pages/sundaySchoolPage/SundaySchoolPage';
 import PhotogalleryPage from './pages/photogalleryPage/PhotogalleryPage';
 
 import { BelltowerGallery, MersybusGallery, PoorhouserGallery, TempleGallery } from './pages/photogallerypages/PhotogalleryPages';
+import { DonationsPage } from './pages/donationsPage/DonationsPage';
 function App() {
   return (
     <BrowserRouter>
@@ -36,6 +37,7 @@ function App() {
         <Route path='/poorhouse' element={<PoorhousePage/>}/>
         <Route path='/mercybus' element={<MercyBusPage/>}/>
         <Route path='/photogallery' element={<PhotogalleryPage/>}/>
+        <Route path='/donations' element={<DonationsPage/>}/>
 
         <Route path='/photogallery/temple' element={<TempleGallery/>}/>
         <Route path='/photogallery/belltower' element={<BelltowerGallery/>}/>
