@@ -17,11 +17,19 @@ import PoorhousePage from './pages/poorhousePage/PoorhousePage';
 import MercyBusPage from './pages/mercyBusPage/MersyBusPage';
 import SundaySchoolPage from './pages/sundaySchoolPage/SundaySchoolPage';
 import PhotogalleryPage from './pages/photogalleryPage/PhotogalleryPage';
-
+import {React, useEffect} from 'react'
+import icon from './images/favicon.ico';
 import { BelltowerGallery, MersybusGallery, PoorhouserGallery, TempleGallery } from './pages/photogallerypages/PhotogalleryPages';
 import { DonationsPage } from './pages/donationsPage/DonationsPage';
+
 function App() {
+  useEffect(() => {
+    const favicon = document.getElementById('favicon');
+    favicon.setAttribute('href', icon);
+}, []);
   return (
+
+    
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<MainPage />}/>
