@@ -19,8 +19,8 @@ return (
     <div className='slider'>
       
       <SimpleImageSlider 
-        width='80vw'
-        height='57vw'
+        width='90vw'
+        height='55vw'
         images={images}
         showBullets={true}
         showNavs={true}

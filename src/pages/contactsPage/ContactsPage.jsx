@@ -14,17 +14,20 @@ export default function ContactsPage() {
           <div className={classes.ContactsPageMain}>
           <div className={classes.Info}>
             <div className={classes.Info1}>
-                <div className={classes.InfoEmail}><p className={classes.Text}><b>E-mail:</b>hram-krgorka@yandex.ru</p> <p className={classes.Text}><b>Контактный телефон:</b>+7 (3812) 97-97-12</p></div>
+                <div className={classes.InfoEmail}><p className={classes.Text1}><b>E-mail:</b>hram-krgorka@yandex.ru</p> <p className={classes.Text1}><b>Контактный телефон:</b>+7 (3812) 97-97-12</p>
+                <p className={classes.Text1}><b>Настоятель:</b> иерей Антоний Андреевич Хмелёв +7-962-047-55-85</p>
+            <p className={classes.Text1}><b>Контактное лицо по волонтерким вопросам:</b> Ольга, +7-965-879-97-28</p>
+            <p className={classes.Text1}><b>Банковские реквизиты:</b> Сбербанк 5336 6901 5898 6895 (получатель платежа Антон Андреевич Х.)</p></div>
                 <div className={classes.Network}><div className={classes.Text}>Мы в социальных сетях:</div> 
                 <div className={classes.Networks}>
                   <img src={require('../../images/contacts/vk.png')} alt="" className={classes.Img1}/>
                   <img src={require('../../images/contacts/whatsapp.png')} alt="" className={classes.Img2}/>
                 </div>
                 </div>
+
             </div>
-            <p className={classes.Text}><b>Настоятель:</b> иерей Антоний Андреевич Хмелёв +7-962-047-55-85</p>
-            <p className={classes.Text}><b>Контактное лицо по волонтерким вопросам:</b> Ольга, +7-965-879-97-28</p>
-            <p className={classes.Text}><b>Банковские реквизиты:</b> Сбербанк 5336 6901 5898 6895 (получатель платежа Антон Андреевич Х.)</p>
+            
+            
             <p className={`${classes.Text} ${classes.TextT}`}><svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
 <rect width="65" height="64" fill="url(#pattern0)"/>
 <defs>

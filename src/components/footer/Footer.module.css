@@ -34,13 +34,20 @@
     
     color: #FFFFFF;
 }
-@media  ( max-width: 490px) {
+@media  ( max-device-width: 490px) {
     .logoRussia{
-        width: 90%;
-        object-fit: fill;
+        width: 100%;
+        object-fit: contain;
     }
     .logoOmsk{
-        width: 90%;
-        object-fit: fill;
+        width: 100%;
+        object-fit: contain;
     }    
+    .logoes{
+        display: flex;
+        flex-flow: wrap column;
+        text-align: center;
+        justify-content: space-around;
+        margin: 10px 0 10px 0;
+    }
 }

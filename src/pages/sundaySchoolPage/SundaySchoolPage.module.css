@@ -17,3 +17,8 @@
     line-height: 34px;
     color: #000000;
 }
+@media (max-device-width:450px) {
+    .Text{
+        font-size: 13px;
+    }
+}

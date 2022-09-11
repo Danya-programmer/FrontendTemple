@@ -22,6 +22,15 @@
     color: #000000;
 
 }
+.Text1 {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+    color: #000000;
+
+}
 .TextT{
     display: flex;
     flex-flow: row nowrap;
@@ -125,7 +134,7 @@
     color: #FFFFFF;
 }
 
-@media (max-width: 500px) {
+@media (max-device-width: 500px) {
     .Title{
         margin: 10px 0 10px 0;
         font-family: 'Vezitsa';
@@ -139,7 +148,16 @@
         font-family: 'Arial';
         font-style: normal;
         font-weight: 400;
-        font-size: 22px;
+        font-size: 30px;
+        line-height: 34px;
+        color: #000000;
+    
+    }
+    .Text1 {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
         line-height: 34px;
         color: #000000;
     
@@ -150,24 +168,29 @@
     .MapInfomation{
         
         display: flex;
-        flex-flow: column ;
+        flex-flow: column nowrap;
         height: min-content;
     }
     .Map{
         align-self: center;
+        width: 94vw;
+        height: 50vw;
     }
     .Button{
-        width: 300px;
-        height: 70px;
+        width: 400px;
+        height: 80px;
         align-items: center;
     }
     .WhiteText{   
-        font-size: 24px;
+        font-size: 28px;
         line-height: 20px;
         color: #FFFFFF;
     }
     .geoText{
         min-width: 300px;
         text-align: center;
+    }
+    .Text1{
+        font-size: 15px;
     }
 }

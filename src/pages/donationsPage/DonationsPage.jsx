@@ -8,7 +8,7 @@ export const DonationsPage = () => {
             <Header/>
 
             <form method="POST" action="https://yoomoney.ru/quickpay/confirm.xml">   
-             <input type="hidden" name="receiver" value="4100117959258950"/>   
+             <input type="hidden" name="receiver" value="40703810845350160074"/>   
              <input type="input" name="formcomment" value=" синтеза"></input>
              <input type="hidden" name="short-dest" value="ядерного синтеза"/>   
               <input type="hidden" name="label" value="$order_id"/>   

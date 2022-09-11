@@ -1,3 +1,5 @@
+
+
 .menuItem {
     font-family: 'Vezitsa';
     font-style: normal;
@@ -35,4 +37,14 @@
 .itemTitle{
     max-width: max-content;
     height: min-content;
+}
+
+@media  ( max-device-width: 400px){
+    .menuItem{
+        font-size: 27px;
+    }
+    .inActive{
+        font-size: 30px;
+        margin: 10px;
+    }
 }

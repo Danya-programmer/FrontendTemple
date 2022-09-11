@@ -16,23 +16,24 @@ const MercyBusPage = () => {
             <div className={classes.Title}>Автобус милосердия</div>
             <div data-aos='slide-up' className={classes.Section}>
                 <img src={require('../../images/mercyBus/bus1.jpg')} alt="" className={classes.Img} />
-                <div className={classes.Texts}><p className={classes.Text}> Автобус милосердия – общественно-церковный проект помощи бездомным людям и людям в трудной жизненной ситуации. </p>
-<p className={classes.Text}>Еженедельно специально оборудованный автобус выезжает в пункты кормления для раздачи горячего питания, сезонной обуви и одежды. </p>
-<p className={classes.Text}>При необходимости подопечные получают медицинскую, психологическую и юридическую помощь.</p>
+                <div className={classes.Texts}><div className={classes.Text1}> Автобус милосердия – общественно-церковный проект помощи бездомным людям и людям в трудной жизненной ситуации. </div>
+<div className={classes.Text1}>Еженедельно специально оборудованный автобус выезжает в пункты кормления для раздачи горячего питания, сезонной обуви и одежды. </div>
+<div className={classes.Text1}>При необходимости подопечные получают медицинскую, психологическую и юридическую помощь.</div>
 </div>
             </div>
             <div data-aos='slide-up' className={classes.Section}>
-            <div className={classes.Texts}><p className={classes.Text}>Команда Автобуса милосердия состоит из водителя, социального работника и волонтеров. </p>
-                    <p className={classes.Text}>Присоединиться к проекту может любой желающий!</p></div>
-            
+                
+            <div className={classes.Texts}><div className={classes.Text1}>Команда Автобуса милосердия состоит из водителя, социального работника и волонтеров. </div>
+                    <div className={classes.Text1}>Присоединиться к проекту может любой желающий!</div></div>
                 <img src={require('../../images/mercyBus/bus2.jpg')} alt="" className={classes.Img} />
+                
                 </div>
             <div data-aos='slide-up' className={classes.Section}>
                 <img src={require('../../images/mercyBus/bus3.jpg')} alt="" className={classes.Img} />
                 <div className={classes.Texts}>
-                    <p className={classes.Text}>Автобус милосердия организует горячие обеды для людей, попавших в трудную жизненную ситуацию.</p>
-                    <p className={classes.Text}>Трижды в неделю волонтеры раздают еду и одежду бездомным на улицах Омска. </p> 
-                    <p className={classes.Text}>Присоединяйтесь и вы к нашей дружной компании!</p>
+                    <p className={classes.Text1}>Автобус милосердия организует горячие обеды для людей, попавших в трудную жизненную ситуацию.</p>
+                    <p className={classes.Text1}>Трижды в неделю волонтеры раздают еду и одежду бездомным на улицах Омска. </p> 
+                    <p className={classes.Text1}>Присоединяйтесь и вы к нашей дружной компании!</p>
                 </div>
             </div>
             <Link to='/contacts#info'  className={classes.Button}><p className={classes.WhiteText}>Стать волонтером</p></Link>

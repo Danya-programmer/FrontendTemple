@@ -50,6 +50,17 @@
     color: #000000;
 
 }
+.Text1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
 .Button{
     width: 35vw;
     min-width: 300px;
@@ -95,6 +106,44 @@
 }
 .Bustime{
     align-self: center;
-    width: 96vw;
+    width: 100vw;
     object-fit: cover;
+}
+
+@media (max-device-width: 500px) {
+    
+    .Section:nth-child(3){
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Texts{
+        max-width: 100%;
+        width: 94vw;
+        font-size: 20px;
+    }
+    .Title{
+        font-size: 60px;
+    }
+    .WhiteText{
+        font-size: 35px;
+        line-height: 20px;
+    }
+
+    .Text{
+        font-size: 10pt;
+    }
+    
+    .Button{
+        width: 60vw;
+        height: 10vw;
+    }
+    .Img{
+        width: 96vw;
+        max-width: none;
+        margin: 10px 0 10px 0;
+    }
+    .Text1{
+        font-size: 21pt;
+    
+    }
 }
