@@ -7,7 +7,6 @@ import classes from './SchedulePage.module.css'
 
 export default function SchedulePage() {
   const scheldureData = Server().ControllerServer.scheduleData
-  console.log(scheldureData)
   return (
     <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
         <Header/>

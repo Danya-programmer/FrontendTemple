@@ -4,8 +4,11 @@ import { Header } from '../../components/header/Header';
 import { HashLink as Link } from 'react-router-hash-link';
 import classes from './MercyBusPage.module.css'
 import ButonUp from '../../components/UI/buttonUp/ButonUp';
-import Aos from 'aos';
+import Aos from 'aos'
+import { Server } from '../../components/server/Server'
 const MercyBusPage = () => {
+    const mersybusStaionsData = Server().ControllerServer.mersybusStations
+    console.log(mersybusStaionsData)
     Aos.init({
         duration: 1200
       });
@@ -46,7 +49,9 @@ const MercyBusPage = () => {
                 <img src={require('../../images/mercyBus/busDress.jpg')} alt="" className={classes.ImgDressAndFood} />
                 <img src={require('../../images/mercyBus/busFood.jpg')} alt="" className={classes.ImgDressAndFood} />
             </div>
-            <img src={require('../../images/mercyBus/bustime.jpg')} alt="" className={classes.Bustime} />
+            {mersybusStaionsData.map((data) => (
+          <img src={data.image} alt="не работает" className={classes.Bustime} />
+        ))}
             <ButonUp/>
            <Footer/>
            
