@@ -7,6 +7,7 @@ import classes from './SchedulePage.module.css'
 
 export default function SchedulePage() {
   const scheldureData = Server().ControllerServer.scheduleData
+  
   return (
     <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
         <Header/>
@@ -15,6 +16,7 @@ export default function SchedulePage() {
         {scheldureData.map((data) => (
           <img src={data.image} alt="не работает" className={classes.Img} />
         ))}
+        
        </div>
        <ButonUp/>
         <Footer/>

@@ -14,11 +14,10 @@ export const Server =() => {
     const [poorhousePhotogallery, setPoorhousePhotogallery] = React.useState([])
 
 
-
     useEffect(() =>  {  
        axios  ( {
           method: "GET",
-          url:"http://127.0.0.1:8000/api/schedule",
+          url:"http://ce84261-django-1yyb6.tw1.ru/api/schedule?format=json",
         }).then((response)=>{
             setScheduleData(response.data)
         })
@@ -29,16 +28,16 @@ export const Server =() => {
         useEffect(() =>  {
         axios  ( {
             method: "GET",
-            url:"http://127.0.0.1:8000/api/poorhousepeople",
+            url:"http://ce84261-django-1yyb6.tw1.ru/api/poorhousepeople?format=json",
           }).then((response)=>{
-            setPoorhousePeople(response.data)
+            setPoorhousePeople(response.data) 
           }) 
         } ,[])
 
         useEffect(() =>  {
           axios  ( {
               method: "GET",
-              url:"http://127.0.0.1:8000/api/photogallery/temple",
+              url:"http://ce84261-django-1yyb6.tw1.ru/api/photogallery/temple?format=json",
             }).then((response)=>{
               setTemplePhotogallery(response.data)
             }) 
@@ -47,7 +46,7 @@ export const Server =() => {
           useEffect(() =>  {
             axios  ( {
                 method: "GET",
-                url:"http://127.0.0.1:8000/api/photogallery/belltower",
+                url:"http://ce84261-django-1yyb6.tw1.ru/api/photogallery/belltower?format=json",
               }).then((response)=>{
                 setBelltowerPhotogallery(response.data)
               }) 
@@ -56,7 +55,7 @@ export const Server =() => {
             useEffect(() =>  {
               axios  ( {
                   method: "GET",
-                  url:"http://127.0.0.1:8000/api/photogallery/poorhouse",
+                  url:"http://ce84261-django-1yyb6.tw1.ru/api/photogallery/poorhouse?format=json",
                 }).then((response)=>{
                   setPoorhousePhotogallery(response.data)
                 }) 
@@ -65,7 +64,7 @@ export const Server =() => {
               useEffect(() =>  {
                 axios  ( {
                     method: "GET",
-                    url:"http://127.0.0.1:8000/api/photogallery/mersybus",
+                    url:"http://ce84261-django-1yyb6.tw1.ru/api/photogallery/mersybus?format=json",
                   }).then((response)=>{
                     setMersybusPhotogallery(response.data)
                   }) 
@@ -74,7 +73,7 @@ export const Server =() => {
               useEffect(() =>  {
                 axios  ( {
                     method: "GET",
-                    url:"http://127.0.0.1:8000/api/mersybusstations/",
+                    url:"http://ce84261-django-1yyb6.tw1.ru/api/mersybusstations?format=json",
                   }).then((response)=>{
                     setMersybusStations(response.data)
                   }) 

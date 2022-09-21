@@ -1,0 +1,9 @@
+.scroll{
+ display: inline-block;
+}
+@media (max-device-width:500px) {
+    .scroll{
+        display: none;
+    }
+    }
+    

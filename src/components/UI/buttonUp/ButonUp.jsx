@@ -1,10 +1,10 @@
 import React from 'react'
 import ScrollToTop from 'react-scroll-up'
-
+import classes from './ButtonUp.module.css'
 export default function ButonUp() {
-    
   return (
-    <ScrollToTop showUnder={660}><svg width="70" height="60" viewBox="0 0 101 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <div className={classes.scroll}>
+    <ScrollToTop  showUnder={660}><svg width="70" height="60" viewBox="0 0 101 96" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0_85_12)">
     <g filter="url(#filter0_d_85_12)">
     <ellipse cx="50.5" cy="48" rx="50.5" ry="48" fill="#005B9D" fill-opacity="0.87" shape-rendering="crispEdges"/>
@@ -31,5 +31,6 @@ export default function ButonUp() {
     </svg>
     
     </ScrollToTop>
+    </div>
   )
 }
