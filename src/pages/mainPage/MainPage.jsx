@@ -10,7 +10,7 @@ export const MainPage = () => {
     
   
     return(
-        <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
+        <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}} >
             <Header/>
             <SliderImg/>
             <MainButton title='Как посетить'/>

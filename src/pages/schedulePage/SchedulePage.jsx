@@ -14,7 +14,7 @@ export default function SchedulePage() {
         <div className={classes.Images}>
         <div className={classes.Title}>Расписание богослужений</div>
         {scheldureData.map((data) => (
-          <img src={data.image} alt="не работает" className={classes.Img} />
+          <img key={data.image} src={data.image} alt="не работает" className={classes.Img} />
         ))}
         
        </div>
