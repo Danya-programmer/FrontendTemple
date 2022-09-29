@@ -20,7 +20,7 @@ return (
       
       <SimpleImageSlider 
         width='90vw'
-        height='55vw'
+        height='50vw'
         images={images}
         showBullets={true}
         showNavs={true}
