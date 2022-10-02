@@ -17,7 +17,7 @@ export const Server =() => {
     useEffect(() =>  {  
        axios  ( {
           method: "GET",
-          url:"http://ce84261-django-1yyb6.tw1.ru/api/schedule?format=json",
+          url:"https://temple-krutayagorka-server.ru/api/schedule?format=json",
         }).then((response)=>{
             setScheduleData(response.data)
         })
@@ -28,7 +28,7 @@ export const Server =() => {
         useEffect(() =>  {
         axios  ( {
             method: "GET",
-            url:"http://ce84261-django-1yyb6.tw1.ru/api/poorhousepeople?format=json",
+            url:"https://temple-krutayagorka-server.ru/api/poorhousepeople?format=json",
           }).then((response)=>{
             setPoorhousePeople(response.data) 
           }) 
@@ -37,7 +37,7 @@ export const Server =() => {
         useEffect(() =>  {
           axios  ( {
               method: "GET",
-              url:"http://ce84261-django-1yyb6.tw1.ru/api/photogallery/temple?format=json",
+              url:"https://temple-krutayagorka-server.ru/api/photogallery/temple?format=json",
             }).then((response)=>{
               setTemplePhotogallery(response.data)
             }) 
@@ -46,7 +46,7 @@ export const Server =() => {
           useEffect(() =>  {
             axios  ( {
                 method: "GET",
-                url:"http://ce84261-django-1yyb6.tw1.ru/api/photogallery/belltower?format=json",
+                url:"https://temple-krutayagorka-server.ru/api/photogallery/belltower?format=json",
               }).then((response)=>{
                 setBelltowerPhotogallery(response.data)
               }) 
@@ -55,7 +55,7 @@ export const Server =() => {
             useEffect(() =>  {
               axios  ( {
                   method: "GET",
-                  url:"http://ce84261-django-1yyb6.tw1.ru/api/photogallery/poorhouse?format=json",
+                  url:"https://temple-krutayagorka-server.ru/api/photogallery/poorhouse?format=json",
                 }).then((response)=>{
                   setPoorhousePhotogallery(response.data)
                 }) 
@@ -64,7 +64,7 @@ export const Server =() => {
               useEffect(() =>  {
                 axios  ( {
                     method: "GET",
-                    url:"http://ce84261-django-1yyb6.tw1.ru/api/photogallery/mersybus?format=json",
+                    url:"https://temple-krutayagorka-server.ru/api/photogallery/mersybus?format=json",
                   }).then((response)=>{
                     setMersybusPhotogallery(response.data)
                   }) 
@@ -73,7 +73,7 @@ export const Server =() => {
               useEffect(() =>  {
                 axios  ( {
                     method: "GET",
-                    url:"http://ce84261-django-1yyb6.tw1.ru/api/mersybusstations?format=json",
+                    url:"https://temple-krutayagorka-server.ru/api/mersybusstations?format=json",
                   }).then((response)=>{
                     setMersybusStations(response.data)
                   }) 

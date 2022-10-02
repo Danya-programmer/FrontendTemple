@@ -1,6 +1,6 @@
 import ImageGallery from 'react-image-gallery';
 import React from 'react';
-
+import  classes  from "./Photogallery.module.css";
 export const PhotoGallery = (props) => {
 
     const images = []
@@ -13,9 +13,9 @@ export const PhotoGallery = (props) => {
     }
    
     return(
-        <>
-    <ImageGallery items={images} key={images} showPlayButton={false} showNav={true}/>
-    </>
+        <div className={classes.PhotoGallery}>
+    <ImageGallery items={images} key={images} showPlayButton={false} showNav={true} />
+    </div>
     )
 }
 

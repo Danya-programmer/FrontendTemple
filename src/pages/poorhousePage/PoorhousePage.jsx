@@ -6,6 +6,7 @@ import AOS from 'aos';
 import { HashLink as Link } from 'react-router-hash-link';
 import PoorhousePagePeople from '../../components/poorhousePagePeople/PoorhousePagePeople';
 import { Server } from '../../components/server/Server';
+import ButonUp from '../../components/UI/buttonUp/ButonUp';
 
 const PoorhousePage = () => {
     AOS.init({
@@ -46,6 +47,7 @@ const PoorhousePage = () => {
                 </svg>
               </div>
             <PoorhousePagePeople/>
+            <ButonUp/>
             </div>
             <Footer/>
         </div>

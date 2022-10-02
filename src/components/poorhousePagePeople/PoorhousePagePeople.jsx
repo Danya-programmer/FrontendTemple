@@ -5,7 +5,7 @@ import classes from './PoorhousePagePeople.module.css'
 
 export default function PoorhousePagePeople() {
   const people = Server().ControllerServer.poorhousePeople
-  console.log(people)
+  
 
 
   return (
