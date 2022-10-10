@@ -8,7 +8,7 @@ import Aos from 'aos'
 import { Server } from '../../components/server/Server'
 const MercyBusPage = () => {
     const mersybusStaionsData = Server().ControllerServer.mersybusStations
-    console.log(mersybusStaionsData)
+    
     Aos.init({
         duration: 1200
       });
