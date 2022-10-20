@@ -54,7 +54,6 @@ const MercyBusPage = () => {
         ))}
             <ButonUp/>
            <Footer/>
-           
         </div>
     );
 }
