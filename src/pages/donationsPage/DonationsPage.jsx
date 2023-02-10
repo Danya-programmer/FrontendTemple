@@ -16,7 +16,7 @@ export const DonationsPage = () => {
                 <div className="donateTitle">Пожертвования</div>
                 <div className="donateMainText"><b>Благодарим Вас за поддержку!</b><br/><br/>
             Дорогие друзья! <br></br>Совершая регулярные пожертвования, у вас появляется возможность оказывать благотворительную 
-            помощь бездомным и нуждающимся людям, а мы можем планировать свою деятельность и сроки оказания необходимой помощи.</div>
+            помощь людям в трудной жизненной ситуации, а мы можем планировать свою деятельность и сроки оказания необходимой помощи.</div>
                 <TextField type="number" name="sum" onChange={e => setValue(e.target.value)} value={value} data-type="number" 
           label="Сумма:"
           className='donateNumberForm'

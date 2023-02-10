@@ -22,6 +22,7 @@ import {React} from 'react'
 import { BelltowerGallery, MersybusGallery, PoorhouserGallery, TempleGallery } from './pages/photogallerypages/PhotogalleryPages';
 import { DonationsPage } from './pages/donationsPage/DonationsPage';
 import HeatingPoint from './pages/heatingPoint/HeatingPoint';
+import Orphanage from './pages/orphanage/Orphanage';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
         <Route path='/poorhouse' element={<PoorhousePage/>}/>
         <Route path='/mercybus' element={<MercyBusPage/>}/>
         <Route path='/heatingpoint' element={<HeatingPoint/>}/>
+        <Route path='/orphanage' element={<Orphanage/>}/>
 
         <Route path='/photogallery' element={<PhotogalleryPage/>}/>
         <Route path='/donations' element={<DonationsPage/>}/>

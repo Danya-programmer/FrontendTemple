@@ -4,7 +4,7 @@ import { DropDownMenu } from "../UI/dropDownMenu/DropDownMenu";
 import classes from './Header.module.css'
 export const Header = () => {
     const menuItemsTemple = [{'to':'/history','title':'История храма'},{'to':'/belltower','title':'Колокольня'}, {'to':'/prosphoric','title':'Просфорная'}, {'to':'/library','title':'Библиотека'}, {'to':'/sundayschool','title':'Воскресная школа для взрослых'}] 
-    const menuItemSocialService = [{'to':'/heatingpoint','title':'Пункт обогрева'},{'to':'/mercybus','title':'Автобус милосердия'},{'to':'/poorhouse','title':'Дом сопровождаемого проживания(Богадельня)'}] 
+    const menuItemSocialService = [{'to':'/heatingpoint','title':'Пункт обогрева'},{'to':'/mercybus','title':'Автобус милосердия'}, {'to':'/orphanage','title':'Социальное служение в интернатах'}, {'to':'/poorhouse','title':'Дом сопровождаемого проживания(Богадельня)'}] 
 
     return(
         <div className={classes.Header}>

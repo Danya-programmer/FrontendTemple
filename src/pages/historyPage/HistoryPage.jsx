@@ -7,7 +7,7 @@ import ButonUp from '../../components/UI/buttonUp/ButonUp';
 
 export const HistoryPage = () => {
     AOS.init({
-        duration: 1200
+        duration: 2000
       });
     return(
         <div >

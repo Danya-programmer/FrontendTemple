@@ -14,7 +14,7 @@ const HeatingPoint = () => {
         <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>
             <Header/>
             <div className={classes.HeatingPoint} >
-            <p className={classes.Title} data-aos="slide-up" data-aos-duration='1200'>Пункт обогрева</p>
+            <p className={classes.Title} data-aos="slide-up" data-aos-duration='1500'>Пункт обогрева</p>
                 <Parallax  bgImage={require('../../images/heatingPoint/backgroundHeatingPoint.jpg')} bgImageAlt="not work" strength={200} style={{borderRadius: '10px'}}>
                     <div className={classes.insideParallax}>     
                     </div>

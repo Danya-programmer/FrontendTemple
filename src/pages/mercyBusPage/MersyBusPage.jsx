@@ -10,7 +10,7 @@ const MercyBusPage = () => {
     const mersybusStaionsData = Server().ControllerServer.mersybusStations
     
     Aos.init({
-        duration: 1200
+        duration: 2000
       });
     return (
         <div style={{background: 'linear-gradient(180deg, #FFFFFF 0%, #ECECEC 99.99%)'}}>

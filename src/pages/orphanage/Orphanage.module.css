@@ -1,0 +1,102 @@
+.Br{
+    display: none;
+}
+.Orphanage{
+    margin: 0 3vw 0 3vw;
+    max-width: 94vw;
+}
+.Title{
+    font-family: 'Vezitsa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+    margin: 10px 0 80px 5px;
+}
+.Img{
+    object-fit: cover;
+    width: 25vw;
+    border-radius: 10px;
+    margin: 0 40px 0 0;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.Img:last-child{
+    margin: 0 0 0 40px;
+}
+
+.Img:hover{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
+.Text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+.Section{
+    display: flex;
+    flex-direction: row;
+    margin: 10vh 0 30vh 0;
+}
+.SectionText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.TitleText{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+@media (max-device-width:500px){
+    .Title{
+        font-size: xxx-large;
+    }
+    .Section{
+        margin: 0 0 10vh 0;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Section:last-child{
+        margin: 5vh 0 10vh 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .Text{
+        font-size: 13px;
+    }
+    .TitleText{
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .Img{
+        width: 94vw;
+        margin: 20px 0 20px 0;
+    }
+    .Img:last-child{
+        margin: 20px 0 20px 0;
+    }
+    .Img:hover{
+        transform: none;
+    }
+    .Br{
+        display: inline;
+    }
+}
