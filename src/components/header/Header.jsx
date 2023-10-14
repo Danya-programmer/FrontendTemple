@@ -10,7 +10,7 @@ export const Header = () => {
         <div className={classes.Header}>
             <NavLink to='/' className={classes.navlinkLogo}>
             <div className={classes.logo}>
-                <img className={classes.logoImg} src={require('../../images/logos/logo.jpg')} alt="не работает"/>
+                <img className={classes.logoImg} src={require('../../images/logos/logo.png')} alt="не работает"/>
                 <div className={classes.logoTitle}>Храм Рождества Христова и Преподобного Сергия Радонежского  
                 пос. Крутая горка</div>
             </div>

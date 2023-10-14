@@ -17,5 +17,14 @@
     margin: 20px 0 20px 0;
     object-fit: contain;
     max-width: min-content;
-    width: 100%;
+    width: 70%;
+}
+
+@media (max-device-width:500px) {
+    .Img{
+        margin: 20px 0 20px 0;
+        object-fit: contain;
+        max-width: min-content;
+        width: 100%;
+    }
 }

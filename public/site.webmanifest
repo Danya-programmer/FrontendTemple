@@ -1,6 +1,6 @@
 {
-    "name": "Храм Рождества Христова и Преподобного Сергия Радонежского пос. Крутая Горка",
-    "short_name": "Храм крутая горка",
+    "name": "\u0425\u0440\u0430\u043c \u041a\u0440\u0443\u0442\u0430\u044f \u0433\u043e\u0440\u043a\u0430",
+    "short_name": "\u0425\u0440\u0430\u043c \u041a\u0440\u0443\u0442\u0430\u044f \u0433\u043e\u0440\u043a\u0430",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -8,8 +8,8 @@
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-256x256.png",
-            "sizes": "256x256",
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
             "type": "image/png"
         }
     ],
