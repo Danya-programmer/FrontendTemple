@@ -17,7 +17,7 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 34px;
     color: #000000;
 
@@ -26,7 +26,7 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 34px;
     color: #000000;
 
@@ -112,8 +112,8 @@
     justify-content: flex-start;
 }
 .Button{
-    width: 332px;
-    height: 77px;
+    width: 80%;
+    max-width: 350px;
     
     text-decoration: none;
     text-align: center;
@@ -130,7 +130,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 34px;
+    text-align: center;
+    line-height: 10px;
     color: #FFFFFF;
     
 }

@@ -23,6 +23,7 @@ import { BelltowerGallery, MersybusGallery, PoorhouserGallery, TempleGallery } f
 import { DonationsPage } from './pages/donationsPage/DonationsPage';
 import HeatingPoint from './pages/heatingPoint/HeatingPoint';
 import Orphanage from './pages/orphanage/Orphanage';
+import { HumanitarianWarehousePage } from './pages/humanitarianWarehousePage/HumanitarianWarehousePage';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <Route path='/mercybus' element={<MercyBusPage/>}/>
         <Route path='/heatingpoint' element={<HeatingPoint/>}/>
         <Route path='/orphanage' element={<Orphanage/>}/>
+        <Route path='/humanitarianwarehouse' element={<HumanitarianWarehousePage/>}/>
 
         <Route path='/photogallery' element={<PhotogalleryPage/>}/>
         <Route path='/donations' element={<DonationsPage/>}/>
@@ -55,6 +57,7 @@ function App() {
         <Route path='/photogallery/poorhouse' element={<PoorhouserGallery/>}/>
         <Route path='/photogallery/mersybus' element={<MersybusGallery/>}/>
 
+        
         <Route path="*" element={<Navigate to ="/" />}/>
 </Routes>
 </BrowserRouter>

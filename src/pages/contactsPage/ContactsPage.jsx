@@ -14,11 +14,11 @@ export default function ContactsPage() {
           <div className={classes.ContactsPageMain}>
           <div className={classes.Info}>
             <div className={classes.Info1}>
-                <div className={classes.InfoEmail}><p className={classes.Text1}><b>E-mail:</b>hram-krgorka@yandex.ru</p> <p className={classes.Text1}><b>Контактный телефон:</b>+7 (3812) 97-97-12</p>
-                <p className={classes.Text1}><b>Настоятель:</b> иерей Антоний Андреевич Хмелёв +7-962-047-55-85</p>
-            <p className={classes.Text1}><b>Контактное лицо по волонтерским вопросам:</b> Ольга, +7-965-879-97-28</p>
-            <p className={classes.Text1}><b>Банковские реквизиты:</b> Сбербанк 5336 6901 5898 6895 (получатель платежа Антон Андреевич Х.)</p></div>
-                <div className={classes.Network}><div className={classes.Text}>Мы в социальных сетях:</div> 
+                <div className={classes.InfoEmail}><p className={classes.Text1}><b>E-mail: </b><a href="moilto:hram-krgorka@yandex.ru" style={{color:'black'}}>hram-krgorka@yandex.ru</a></p> <p className={classes.Text1}><b>Контактный телефон: </b><a href="tel:+7 (3812) 97-97-12" style={{color:'black'}}>+7 (3812) 97-97-12</a></p>
+                <p className={classes.Text1}><b>Настоятель: </b> иерей Антоний Андреевич Хмелёв <a href="tel:+7-962-047-55-85" style={{color:'black'}}>+7-962-047-55-85</a></p>
+            <p className={classes.Text1}><b>Контактное лицо по волонтерским вопросам: </b> Ольга, <a href="tel:+7-965-879-97-28" style={{color:'black'}}>+7-965-879-97-28</a></p>
+            <p className={classes.Text1}><b>Банковские реквизиты: </b> Сбербанк 5336 6901 5898 6895 (получатель платежа Антон Андреевич Х.)</p></div>
+                <div className={classes.Network}><div className={classes.Text}>Мы в социальных сетях: </div> 
                 <div className={classes.Networks}> 
                 <a href='https://vk.com/chramkgorka'>
                   <img src={require('../../images/contacts/vk.png')} alt="" className={classes.Img1}/></a>

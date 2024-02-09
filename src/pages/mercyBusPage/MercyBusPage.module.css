@@ -42,7 +42,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 37px;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 37px;
     display: flex;
     align-items: center;
@@ -106,7 +106,7 @@
 }
 .Bustime{
     align-self: center;
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
 }
 
