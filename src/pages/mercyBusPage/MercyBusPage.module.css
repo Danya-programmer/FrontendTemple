@@ -106,8 +106,9 @@
 }
 .Bustime{
     align-self: center;
-    width: 100%;
+    width: 94vw;
     object-fit: cover;
+    margin: 0 0 0 3vw;
 }
 
 @media (max-device-width: 500px) {

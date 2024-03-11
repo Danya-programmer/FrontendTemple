@@ -6,6 +6,8 @@ import classes from './MercyBusPage.module.css'
 import ButonUp from '../../components/UI/buttonUp/ButonUp';
 import Aos from 'aos'
 import { Server } from '../../components/server/Server'
+
+
 const MercyBusPage = () => {
     const mersybusStaionsData = Server().ControllerServer.mersybusStations
     

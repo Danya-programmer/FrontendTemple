@@ -1,19 +1,19 @@
-import {React} from 'react'
-import { Header } from '../../components/header/Header'
-import { Footer } from '../../components/footer/Footer'
-import classes from './HumanitarianWarehousePage.module.css'
+import {React} from 'react';
+import { Header } from '../../components/header/Header';
+import { Footer } from '../../components/footer/Footer';
+import classes from './HumanitarianWarehousePage.module.css';
 
 
 
 export const HumanitarianWarehousePage = () => {
-
+   
     return (
         <div >
         <Header/>
         <main className={classes.MainContainer}>
         <p className={classes.Title}>Гуманитарный склад</p>
         <div className={classes.Section1}>
-            <div className={classes.TextContainer}>
+            <div  className={classes.TextContainer}>
             <p className={classes.Text1}>В поселке Крутая горка православными волонтерами открыт 
             гуманитарный склад для нуждающихся</p>
             </div>

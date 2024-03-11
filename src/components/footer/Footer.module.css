@@ -11,15 +11,15 @@
     justify-content: space-around;
     margin: 10px 0 10px 0;
 }
+
 .logoOmsk{
-    width: 336px;
-    height: 153px;
     
 }
+
 .logoRussia{
-    width: 476px;
-    height: 153px;
+   
 }
+
 .copyright{
     margin: 15px;
     display: flex;
@@ -36,13 +36,14 @@
     
     color: #FFFFFF;
 }
+
 @media  ( max-device-width: 490px) {
     .logoRussia{
-        width: 100%;
+        width: 50vw;
         object-fit: contain;
     }
     .logoOmsk{
-        width: 100%;
+        width: 50vw;
         object-fit: contain;
     }    
     .logoes{
@@ -52,5 +53,11 @@
         justify-content: space-around;
         margin: 10px 0 10px 0;
         min-height: 450px;
+    }
+    .copyrightText{
+        font-size: 18px;
+    }
+    .copyrightTextSign{
+        font-size: 18px;
     }
 }
